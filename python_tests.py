@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     Actual_day = (days_of_week[day][1])
 
-    if Actual_day in ("Friday")
+    if Actual_day == "Friday":
         print ("Today is a Friday do not make code changes even in dev")
         sys.exit(1)
     else:
